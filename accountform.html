@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+</head>
+<body>
+    <h1>create account form</h1>
+
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <ul>
+                <li>
+                    <!-- <label for="full-name">full name</label> -->
+                    <label for="fullName">full name</label>
+                    <input type="text" name="name" id="fullName" placeholder="enter your full name" required>
+                </li>
+                <li>
+                    <label for="dob">date of birth</label>
+                    <input type="date" name="month" id="dob">
+                </li>
+                <li>
+                    <label for="address"> home address</label> <br/>
+                    <textarea name="address" id="address" cols="30" rows="2" maxlength="20" ></textarea>
+                </li>
+                <li>
+                    <label for="soo">state of origin</label> <br>
+                    <select>
+                        <optgroup label="South South">
+                            <option value="ai">Awka-Ibom</option>
+                            <option value="by">Bayelsa</option>
+                            <option value="cr">Cross-river</option>
+                            <option value="dt">Delta</option>
+                            <option value="ed">Edo</option>
+                            <option value="ri">Rivers</option>
+                        </optgroup>
+                            <optgroup label="South West">
+                            <option value="ek">Ekiti</option>
+                            <option value="la">Lagos</option>
+                            <option value="og">Ogun</option>
+                            <option value="on">Ondo</option>
+                            <option value="os">Osun</option>
+                            <option value="oy">Oyo</option>
+                        </optgroup>
+                        <optgroup label="South East">
+                            <option value="ab">Abia</option>
+                            <option value="an">Anambra</option>
+                            <option value="eu">Enugu</option>
+                            <option value="eb">Eboyi</option>
+                            <option value="im">Imo</option>
+                        </optgroup>
+                        <optgroup label="North Central">
+                            <option value="bn">Benue</option>
+                            <option value="kg">Kogi</option>
+                            <option value="ns">Nassarrawa</option>
+                            <option value="ni">Niger</option>
+                            <option value="kw">kwara</option>
+                            <option value="pl">Plateau</option>
+                            <option value="aj">FCT</option>
+                        </optgroup>
+                        <optgroup label="North East"> 
+                        <option value="ad">Adamawa</option>
+                        <option value="bu">Bauchi</option>
+                        <option value="br" selected>Bornu</option>
+                        <option value="gm">Gombe</option>
+                        <option value="tr">Taraba</option>
+                        <option value="yb">Yobe</option>
+                        </optgroup>
+                        <optgroup label="North West">
+                            <option value="kd">Kaduna</option>
+                            <option value="kn">Kano</option>
+                            <option value="ks">Kastina</option>
+                            <option value="kb">kebbi</option>
+                            <option value="ji">Jigawa</option>
+                            <option value="sk">Sokoto</option>
+                            <option value="zm">Zamfara</option>
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <h3>marital status</h3>
+
+                    <input type="radio" name="status" id="single">
+                    <label for="single">single</label>
+
+                    <input type="radio" name="status" id="married" checked>
+                    <label for="married">married</label>
+
+                    <input type="radio" name="status" id="divorced">
+                    <label for="divorced">divorced</label>
+
+                    <input type="radio" name="status" id="widowed">
+                    <label for="widowed">widowed</label>
+                </li>
+                <li>
+                    <h3>gender</h3>
+                    <input type="radio" name="status" id="male">
+                    <label for="male">male</label>
+
+                    <input type="radio" name="status" id="female">
+                    <label for="female">female</label>
+                <li>
+                    <h3>religion</h3>
+                    <input type="radio" name="status" id="Islam">
+                    <label for="Islam">Islam</label>
+
+                    <input type="radio" name="status" id="Christianity">
+                    <label for="Christianity">Christianity</label>
+
+                    <input type="radio" name="status" id="Others">
+                    <label for="Others">Others</label>
+                </li>
+                <li>
+                    <label for="email">email address</label> <br/>
+                    <input type="email" name="email" id="email" placeholder="enter your email">
+                </li>
+                <li>
+                    <label for="phone">phone number</label> <br/>
+                    <input type="number" name="number" id="phone">
+                </li>
+                <li>
+                    <h3>Valid identification</h3>
+                    <input type="radio" name="status" id="drivers license">
+                    <label for="drivers license">drivers license</label>
+
+                    <input type="radio" name="status" id="international passport">
+                    <label for="international passport">international passport</label>
+
+                    <input type="radio" name="status" id="national idetification number">
+                    <label for="national identification number"> national identification number</label>
+
+                    <input type="radio" name="status" id="voters card">
+                    <label for="voters card">voters card</label> <br>
+                
+                    <input type="file" name="status" id="">
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
